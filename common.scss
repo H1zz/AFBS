@@ -41,6 +41,23 @@
         }
     }
 }
+.container{
+    .row{
+        .top-menu{
+            .navbar{
+                .d-lg-none{
+                    .row{
+                        .col-3{
+                            a{
+                                color: var(--pink);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 #flower-dropdown-menu{
     min-width: 6rem;
 }
